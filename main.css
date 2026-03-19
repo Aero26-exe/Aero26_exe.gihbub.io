@@ -1,0 +1,10 @@
+main {
+  /* ボックスモデルにパディングを含める */
+  box-sizing: border-box;
+  /* ビューポートの高さに設定 */
+  height: 100vh;
+  /* ヘッダー分の上部パディングを追加 */
+  padding-top: 80px;
+  /* 縦スクロールを有効化 */
+  overflow-y: scroll;
+}

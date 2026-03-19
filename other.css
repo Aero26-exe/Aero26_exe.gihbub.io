@@ -1,0 +1,14 @@
+.section-box {
+  /* 背景色を半透明に設定 */
+  background-color: rgba(200, 213, 216, 0.7);
+  /* テキスト色を設定 */
+  color: #202124;
+  /* 枠線を設定 */
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  /* 角丸 */
+  border-radius: 50px;
+  /* パディング（内側の余白） */
+  padding: 20px;
+   /* 左右のマージンで余白を作成 */
+  margin: 15px 170px;        /* 上下15px、左右20px */
+}

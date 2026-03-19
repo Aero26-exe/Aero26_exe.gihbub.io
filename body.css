@@ -1,0 +1,20 @@
+body {
+  /* フォント設定 */
+  font-family: 
+    "Helvetica Neue", /* 英字用 */
+    "Meiryo",         /* 日本語用 */
+    sans-serif;
+  /* 背景画像を使用 */
+  background-image: url('空＿曇あり.jpg');
+  /* 背景画像が全体を覆うようにサイズ設定 */
+  background-size: cover;
+  /* 背景画像を中央配置 */
+  background-position: center;
+  /* 背景のみ固定してスクロールしない */
+  background-attachment: fixed;
+  /* 背景画像の繰り返しを無効 */
+  background-repeat: no-repeat;
+  /* bodyのスクロールを無効化（二重スクロール防止） */
+  height: 100vh;
+  overflow: hidden;
+}

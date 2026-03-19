@@ -1,0 +1,64 @@
+header {
+  /* 固定位置に配置 */
+  position: fixed;
+  /* ページ上部からの余白を設定 */
+  top: 20px;
+  /* 左端からの余白を設定 */
+  left: 10px;
+  /* 右端からの余白を設定 */
+  right: 30px;
+  /* 背景色を設定 */
+  background-color: rgba(0, 0, 0, 0.7);
+  /* 角丸 */
+  border-radius: 50px;
+  /* z-indexで他の要素より上に表示 */
+  z-index: 999;
+}
+
+/* header nav - ナビゲーションメニュー */
+header nav {
+  /* パディング・マージンをリセット */
+  padding: 0;
+  margin: 0;
+}
+
+/* header nav ul - ナビゲーションリスト */
+header nav ul {
+  /* パディング・マージンをリセット */
+  padding: 0;
+  margin: 0;
+  /* フレックスレイアウトで横並び */
+  display: flex;
+  /* リスト記号を非表示 */
+  list-style: none;
+  /* 全幅を使用 */
+  width: 100%;
+}
+
+/* header nav ul li - ナビゲーションアイテム */
+header nav ul li {
+  /* フレックスで均等配置 */
+  flex: 1;
+  /* テキストを中央に配置 */
+  text-align: center;
+}
+
+/* header nav ul li a - ナビゲーションリンク */
+header nav ul li a {
+  /* ブロック化してクリック領域を拡大 */
+  display: block;
+  /* パディングを設定 */
+  padding: 15px 20px;
+  /* テキストの色を白に */
+  color: #ffffff;
+  /* リンクの装飾を削除 */
+  text-decoration: none;
+  /* ホバー時のトランジション */
+  transition: background-color 0.3s ease;
+}
+
+/* header nav ul li a:hover - ナビゲーションリンクのホバーエフェクト */
+header nav ul li a:hover {
+  /* ホバー時の背景色 */
+  background-color: rgba(255, 255, 255, 0.2);
+}
