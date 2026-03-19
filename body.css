@@ -1,10 +1,8 @@
 body {
-  /* フォント設定 
   font-family: 
-    "Helvetica Neue", 英字用 
-    "Meiryo",         日本語用 
+    "Helvetica Neue",  
+    "Meiryo",        
     sans-serif;
-  */
   /* 背景画像を使用 */
   background-image: url('空＿曇あり.jpg');
   /* 背景画像が全体を覆うようにサイズ設定 */
